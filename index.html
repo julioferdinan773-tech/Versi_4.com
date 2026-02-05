@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Profil Pengawas Sekolah Kota Sabang</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #f5f5f5;
+  line-height: 1.7;
+  background: linear-gradient(135deg, #000000, #111111);
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* LOGO SABANG TRANSPARAN */
+body::before {
+  content: "";
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  height: 500px;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Lambang_Kota_Sabang.png/600px-Lambang_Kota_Sabang.png') no-repeat center;
+  background-size: contain;
+  opacity: 0.06; /* makin kecil makin samar */
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background: rgba(0,0,0,0.9);
+  border-bottom: 1px solid rgba(212,175,55,0.4);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav h2 {
+  color: #d4af37;
+  margin: 0;
+}
+
+nav a {
+  color: #d4af37;
+  margin-left: 25px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.hero {
+  background: radial-gradient(circle at center, rgba(212,175,55,0.08), transparent 70%);
+}
+
+.hero {
+  text-align: center;
+  padding: 120px 20px 80px;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  color: #d4af37;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  max-width: 700px;
+  margin: auto;
+  opacity: 0.85;
+}
+
+.section {
+  max-width: 1100px;
+  margin: 60px auto;
+  padding: 40px;
+  background: rgba(20,20,20,0.95);
+  border-radius: 18px;
+  border: 1px solid rgba(212,175,55,0.25);
+  box-shadow: 0 0 30px rgba(212,175,55,0.08);
+}
+
+.section h2 {
+  color: #d4af37;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile img {
+  width: 180px;
+  border-radius: 20px;
+  border: 3px solid #d4af37;
+  margin-bottom: 15px;
+  box-shadow: 0 0 25px rgba(212,175,55,0.5);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
+  gap: 20px;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(212,175,55,0.2);
+}
+
+ul {
+  padding-left: 20px;
+}
+
+<section class="section">
+  <h2>Prestasi & Sertifikasi</h2>
+  <div class="grid">
+    <div class="card">Pengawas Berprestasi Tingkat Kota</div>
+    <div class="card">Sertifikat Pengawas Profesional</div>
+    <div class="card">Pembina Sekolah Berstandar Nasional</div>
+    <div class="card">Narasumber Workshop Pendidikan</div>
+  </div>
+</section>
+
+<footer>
+  <strong>Pengawas Sekolah SMP Kota Sabang</strong><br>
+  Dinas Pendidikan Kota Sabang<br><br>
+  © 2026 • Website Profil Resmi Pengawas Sekolah
+</footer>
+
+}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+  nav {flex-direction: column; text-align: center;}
+  nav div {margin-top: 10px;}
+  .hero h1 {font-size: 2rem;}
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+  <h2>Pengawas Sekolah</h2>
+  <div>
+    <a href="#profil">Profil</a>
+    <a href="#visi">Visi & Misi</a>
+    <a href="#tugas">Tugas</a>
+    <a href="#sekolah">Sekolah</a>
+    <a href="#kontak">Kontak</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <h1>Profil Pengawas Sekolah SMP Kota Sabang</h1>
+  <p>Mewujudkan pengawasan pendidikan yang profesional, berintegritas, dan berdampak nyata bagi peningkatan mutu sekolah.</p>
+</section>
+
+<section class="section profile" id="profil">
+  <img src="https://via.placeholder.com/180x220" alt="Foto Cut Intan">
+  <h2>Cut Intan, S.Pd</h2>
+  <p>Pengawas Sekolah Menengah Pertama (SMP) Kota Sabang yang memiliki dedikasi tinggi dalam pembinaan tenaga pendidik, peningkatan mutu pembelajaran, serta penguatan manajemen sekolah.</p>
+</section>
+
+<section class="section" id="visi">
+  <h2>Visi & Misi Pengawasan</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Visi</h3>
+      <p>Terwujudnya sekolah binaan yang unggul, berkarakter, dan berdaya saing melalui sistem pengawasan pendidikan yang profesional.</p>
+    </div>
+    <div class="card">
+      <h3>Misi</h3>
+      <ul>
+        <li>Meningkatkan mutu pembelajaran dan kinerja guru</li>
+        <li>Mendorong manajemen sekolah yang efektif</li>
+        <li>Menguatkan budaya mutu dan disiplin</li>
+        <li>Mendampingi sekolah dalam akreditasi</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="tugas">
+  <h2>Tugas dan Fungsi Pengawas Sekolah</h2>
+  <ul>
+    <li>Melaksanakan supervisi akademik dan manajerial</li>
+    <li>Membina kepala sekolah dan guru</li>
+    <li>Memantau standar nasional pendidikan</li>
+    <li>Mengevaluasi program peningkatan mutu sekolah</li>
+    <li>Menyusun laporan hasil pengawasan</li>
+  </ul>
+</section>
+
+<section class="section" id="sekolah">
+  <h2>Sekolah Binaan di Kota Sabang</h2>
+  <div class="grid">
+    <div class="card">SMP Negeri 1 Sabang</div>
+    <div class="card">SMP Negeri 2 Sabang</div>
+    <div class="card">SMP Negeri 3 Sabang</div>
+    <div class="card">SMP Negeri 4 Sabang</div>
+    <div class="card">SMP Swasta Al-Falah</div>
+    <div class="card">SMP IT Sabang Madani</div>
+  </div>
+</section>
+<section class="section">
+  <h2>Data Pengawasan Tahun 2026</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>12</h3>
+      <p>Sekolah Binaan Aktif</p>
+    </div>
+    <div class="card">
+      <h3>48</h3>
+      <p>Kegiatan Supervisi Dilakukan</p>
+    </div>
+    <div class="card">
+      <h3>96%</h3>
+      <p>Tingkat Kepatuhan Administrasi</p>
+    </div>
+    <div class="card">
+      <h3>32</h3>
+      <p>Guru Dibina Tahun Ini</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="kontak">
+  <h2>Kontak Informasi</h2>
+  <p><strong>Wilayah Pengawasan:</strong> Kota Sabang, Aceh</p>
+  <p><strong>Email:</strong> pengawassabang@email.com</p>
+  <p><strong>Telepon:</strong> (0652) 000000</p>
+</section>
+
+<section class="section">
+  <h2>Dokumentasi Kegiatan Pengawasan</h2>
+  <div class="grid">
+    <div class="card">Supervisi Akademik</div>
+    <div class="card">Pembinaan Guru</div>
+    <div class="card">Monitoring Sekolah</div>
+    <div class="card">Workshop Pendidikan</div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Testimoni Kepala Sekolah</h2>
+  <div class="grid">
+    <div class="card">
+      <p><em>"Pendampingan yang diberikan sangat membantu sekolah kami dalam meningkatkan kualitas pembelajaran dan administrasi."</em></p>
+      <strong>— Kepala SMP Negeri 1 Sabang</strong>
+    </div>
+    <div class="card">
+      <p><em>"Supervisi yang dilakukan memberikan arahan jelas dan solusi nyata terhadap tantangan di sekolah."</em></p>
+      <strong>— Kepala SMP Negeri 3 Sabang</strong>
+    </div>
+    <div class="card">
+      <p><em>"Pembinaan guru yang rutin membuat peningkatan kompetensi terasa signifikan."</em></p>
+      <strong>— Kepala SMP IT Sabang Madani</strong>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © 2026 Pengawas Sekolah SMP Kota Sabang
+</footer>
+
+<a href="https://wa.me/6285142353155" class="wa-float" target="_blank">💬</a>
+
+<style>
+.section, nav, .card {
+  backdrop-filter: blur(6px);
+}
+
+h1, h2 {
+  text-shadow: 0 0 8px rgba(212,175,55,0.4);
+}
+
+.wa-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #d4af37;
+  color: black;
+  font-size: 22px;
+  padding: 14px 16px;
+  border-radius: 50%;
+  text-decoration: none;
+  box-shadow: 0 0 15px rgba(212,175,55,0.6);
+  z-index: 999;
+}
+
+.cs-float {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: linear-gradient(135deg, #d4af37, #b8962e);
+  color: black;
+  padding: 12px 18px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  box-shadow: 0 0 20px rgba(212,175,55,0.6);
+  z-index: 999;
+  transition: 0.3s ease;
+}
+
+.cs-float:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(212,175,55,0.9);
+}
+
+.cs-icon {
+  font-size: 26px;
+}
+
+.cs-text strong {
+  font-size: 14px;
+  display: block;
+}
+
+.cs-text small {
+  font-size: 11px;
+  opacity: 0.8;
+}
+
+/* Versi HP */
+@media(max-width:768px){
+
+  nav {
+    flex-direction: column;
+    padding: 15px 20px;
+    text-align: center;
+  }
+
+  nav div {
+    margin-top: 10px;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 8px 10px;
+  }
+
+  .hero {
+    padding: 80px 15px 50px;
+  }
+
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .section {
+    margin: 30px 15px;
+    padding: 25px 20px;
+  }
+
+  .profile img {
+    width: 140px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr; /* jadi 1 kolom biar gak sempit */
+  }
+
+  .card {
+    padding: 18px;
+  }
+
+  footer {
+    font-size: 13px;
+    padding: 20px;
+  }
+
+  .cs-float {
+    right: 15px;
+    bottom: 15px;
+  }
+
+}
+
+</style>
+
+<script>
+const sections = document.querySelectorAll('.section');
+window.addEventListener('scroll', () => {
+  sections.forEach(sec => {
+    const pos = sec.getBoundingClientRect().top;
+    if(pos < window.innerHeight - 100){
+      sec.style.opacity = 1;
+      sec.style.transform = "translateY(0)";
+    }
+  });
+});
+sections.forEach(sec => {
+  sec.style.opacity = 0;
+  sec.style.transform = "translateY(40px)";
+  sec.style.transition = "all 0.8s ease";
+});
+</script>
+
+<a href="https://wa.me/6285142353155" class="cs-float" target="_blank">
+  <span class="cs-icon">🎧</span>
+  <span class="cs-text">
+    <strong>Customer Service</strong><br>
+    <small>Hubungi via WhatsApp</small>
+  </span>
+</a>
+
+</body>
+</html>
